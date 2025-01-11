@@ -1,0 +1,41 @@
+/* Jose Franco - 01/09/2025 - Assignment 2.2 */
+
+html, body {
+    font-size: 16px;
+}
+p {
+    font-weight: 400;
+    line-height: 1.4em;
+}
+h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;
+}
+address {
+    text-align: center;
+}
+a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #4F3674;
+    text-decoration: none;
+}
+a:visited {
+    color: #4F3674;
+}
+a:hover {
+    color: #D6A800;
+    text-decoration: underline;
+}
+.sentence {
+    font-style: italic;
+}
+.intro {
+    text-indent: 2em;
+}
