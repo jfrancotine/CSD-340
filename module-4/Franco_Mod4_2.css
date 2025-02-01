@@ -1,0 +1,70 @@
+/* Jose Franco */
+/* 01/21/2025 */
+/* Assignment 4.2 */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(128, 0, 0, 0.8); /* optional color */
+}
+
+#image-gallery {
+    display: grid; 
+    grid-template-columns: auto auto auto; /* CSS grid with 3 columns */
+    gap: 1%;
+    margin-top: 10%;
+}
+
+.image-container {
+    background-color: rgb(239, 239, 248); /* background light gray for pictures to be more visible */
+    text-align: center;
+    border: 1px solid #0f03f8;
+    padding: 10%;
+    box-shadow: 2px 2px 5px;
+    border-radius: 15px; /* making border rounded */
+}
+
+h3 {
+    color: rgba(0, 0, 128, 0.8); 
+    margin-bottom: 10px;
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.75em;
+    color: rgba(34, 139, 34, 0.8); 
+}
+
+
+a {
+    text-decoration: none; /* remove underline on link by default */
+    color: blue; 
+}
+
+a:hover {
+    text-decoration: underline; /* add underline on hover */
+    color: darkblue; /* change color on hover */
+}
+
+.last { 
+    width: 100%;
+    margin-top: 5%;
+    float: right;
+    text-align: right;
+    margin-bottom: 20px;
+}

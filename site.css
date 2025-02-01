@@ -1,0 +1,40 @@
+/* Jose Franco */
+/* 01/14/2025 */
+/* Assignment 3.2 */
+
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif; /* Font is Arial */
+}
+
+/* Container Styling */
+#container {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Header Styling */
+h1, h2, h3, h4 {
+    background-color: #4B0082; /* Background color */
+    color: #FFFFFF; /* Font color */
+    border: 1px solid #D6A800; /* Border */
+    padding: 10px;
+}
+
+/* Anchor Tag Styling */
+a {
+    color: #FFD700; /* Text color matching color scheme */
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8B4513; /* Color for visited links */
+}
+
+a:hover {
+    color: #FFA500; /* Color for hover state */
+}
