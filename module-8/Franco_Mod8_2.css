@@ -1,0 +1,120 @@
+/* Jose Franco */
+/* 02/06/2025 */
+/* Assignment 8.2 */
+
+/* Header Element */
+header {
+    background-color: #0055A2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+/* Navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #0055A2;
+    border-bottom: 15px solid #FFD100;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #ffd100;
+    color: #0055a2;
+}
+
+/* Container Div */
+#container {
+    margin: 2% 5% 100px 5%;
+    padding: 10px;
+}
+
+/* Card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #0055a2;
+    font-weight: 400;
+}
+
+.card-content {
+    padding: 2px 16px;
+}
+
+/* Movies Table */
+th {
+    background-color: #0055A2;
+    color: white;
+}
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}
+
+#movies td {
+    border: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    padding: 8px;
+}
+
+/* Footer Element */
+footer {
+    background-color: #0055a2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+    padding-right: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFD100;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
