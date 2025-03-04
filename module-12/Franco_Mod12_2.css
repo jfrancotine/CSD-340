@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 { /* center title */
+    text-align: center;
+}
+
+.side-by-side { /* Set width of side by side */
+    display: flex;
+    justify-content: space-between;
+}
+
+.left, .right { /* Set with left and right */
+    width: 45%;
+}
+
+h3 { /* h3 elements style */
+    font-weight: bold;
+    margin: 0;
+}
+
+.book-list { /* list with borders solid and dash */
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.learned-list {
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+ol { /* ol style */
+    list-style-position: outside;
+}
+
+ul { /* ul style */
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+
+li {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none; /* Remove underline on link by default */
+    color: blue; 
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: darkblue; /* Change color on hover */
+}
+
+.last { /* last div style */
+    width: 100%;
+    margin-top: 10%;
+    float: right;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+
